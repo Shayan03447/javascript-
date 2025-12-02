@@ -21,4 +21,23 @@ let booleanIsLoggedIn=Boolean(isLoggedIn);
 
 let someNumber=33
 let stringNumber=String(someNumber)
-console.log(typeof stringNumber);
+// console.log(typeof stringNumber);
+
+// *********************** Operations *******************************
+
+let value= -3
+let posValue = -value
+// console.log(posValue)
+
+let str1="Hello"
+let str2="Shayan"
+let str3= str1 + str2;
+// console.log(str3)
+
+console.log(null > 0);
+console.log(null < 0);
+console.log(null == 0)
+console.log(null >= 0);
+
+console.log(undefined == 0);
+console.log(undefined > 0);
