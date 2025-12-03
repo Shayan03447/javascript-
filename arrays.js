@@ -20,9 +20,47 @@ const myarray=[0,1,2,3,4,5,6,7]
 // const newarray=myarray.join()
 // console.log(myarray)
 // console.log(typeof newarray)
-console.log("A", myarray)
-const myn1=myarray.slice(1,4)
-console.log(myn1)
-console.log("B", myarray)
-const myn2=myarray.splice(1,5)
-console.log(myn2)
+
+
+// console.log("A", myarray)
+// const myn1=myarray.slice(1,4)
+// console.log(myn1)
+// console.log("B", myarray)
+// const myn2=myarray.splice(1,5)
+// console.log(myn2)
+
+// Difference between push  and concat operations in javascript
+
+// const myarr=[1,2,3,4,5,6,7,8]
+// myarr.push(9)
+// console.log(myarr)
+
+const myarr1=[1,2,3,4,5,6,7,8]
+const myarr2=[9,10,11,12,13,14]
+//const finalArr=[...myarr1,...myarr2]
+//console.log(finalArr)
+// const finalArr=myarr1.concat(myarr2)
+// console.log(finalArr)
+
+
+const marvel_heros=["thor","ironman","spiderman"]
+const dc_heros=["superman","flash","batman"]
+const finalArr=marvel_heros.concat(dc_heros)
+//const all_heros=[...marvel_heros,...dc_heros]
+//console.log(finalArr)
+const newArray=[1,2,3,4,[2,3,5,6],8,9,[2,3,6,7,[2,3,4,5]]]
+const realArray=newArray.flat(Infinity)
+//console.log(realArray)
+
+//  Create an array
+//console.log(Array.isArray("Shayan"))
+//console.log(Array.from("Shayan"))
+// Of an object
+let score1=100
+let score2=200
+let score3=300
+//console.log(Array.of(score1,score2,score3))
+
+const cars=["volvo","bmw","audi"]
+const len=cars.length
+console.log(len)
