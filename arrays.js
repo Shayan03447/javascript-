@@ -1,0 +1,28 @@
+// const myarray=[1,2,3,4,5,6,7]
+// console.log(myarray[1])
+// const myarray1=["shayan","ali", "ahmad"]
+// console.log(myarray1[2])
+// const myarray2=new Array("shayan","ali","ahmad")
+// console.log(myarray2)
+// // *************Arrays methods
+// myarray1.push("salman")
+// console.log(myarray1)
+// myarray2.push("kashif")
+// console.log(myarray2)
+// myarray1.pop()
+// console.log(myarray1)
+const myarray=[0,1,2,3,4,5,6,7]
+// myarray.unshift(0)
+// myarray.shift()
+// console.log(myarray.includes(6))
+// console.log(myarray.indexOf(9))
+// console.log(myarray)
+// const newarray=myarray.join()
+// console.log(myarray)
+// console.log(typeof newarray)
+console.log("A", myarray)
+const myn1=myarray.slice(1,4)
+console.log(myn1)
+console.log("B", myarray)
+const myn2=myarray.splice(1,5)
+console.log(myn2)
