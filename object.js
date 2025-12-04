@@ -60,5 +60,14 @@ const user=[
     }
 ]
 //console.log(user[1].email)
-console.log(person)
-console.log(Object.keys(person))
+//console.log(person)
+//console.log(Object.keys(person))
+
+//How to destructure the values from object
+const course={
+    courseName: "javascript",
+    price: "free",
+    courseInstructure:"Suja"
+}
+const {courseInstructure}=course
+console.log(courseInstructure)
