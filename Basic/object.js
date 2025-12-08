@@ -71,3 +71,11 @@ const course={
 }
 const {courseInstructure}=course
 console.log(courseInstructure)
+
+// json JavaScript object notation(In json keys and value are in the qutation format)
+// {
+//     "Name":"Shayan",
+//     "Coursename":"JavaScript",
+//     "Price":"Free"
+
+// }

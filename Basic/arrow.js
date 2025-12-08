@@ -37,7 +37,3 @@ const company=(num1,num2)=>{
 const project=(num1,num2) => num1+num2
 //console.log(project(2,4))
 
-function chai(){
-    console.log("DB Connected")
-}
-console.log(chai())

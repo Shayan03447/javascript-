@@ -45,6 +45,7 @@ function addone(num){
     return num+1
 }
 // console.log(addone(5))
+//  Expression 
 const addthree=function (num){
     return num+3
 }

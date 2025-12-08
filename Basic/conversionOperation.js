@@ -41,3 +41,6 @@ console.log(null >= 0);
 
 console.log(undefined == 0);
 console.log(undefined > 0);
+
+
+// === "Strict Check" it checks the value and the data type of the value 

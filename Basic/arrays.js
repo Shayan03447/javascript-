@@ -63,4 +63,11 @@ let score3=300
 
 const cars=["volvo","bmw","audi"]
 const len=cars.length
-console.log(len)
+//console.log(len)
+
+// array with loops 
+const fruits=["apple","bannan","cheery","mango"]
+const flen=fruits.length
+for (let i=0; i<flen;i++){
+    
+}
