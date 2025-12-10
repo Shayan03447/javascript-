@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai or Code | DOM</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>
+            javascript 
+        </li>
+    </ul>
+    
+</body>
+<script>
+    function addLanguage(langName){
+        const li=document.createElement('li');
+        li.innerHTML=`${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addLanguage("Python")
+    addLanguage("typescript")
+
+    function addOptiLanguage(langName){
+        const li=document.createElement("li");
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptiLanguage("Ruby") 
+    addOptiLanguage("Swift")
+
+    //Edit
+    const secondLang=document.querySelector("li:nth-child(2)")
+    const newli=document.createElement('li')
+    newli.textContent="C++"
+    secondLang.replaceWith(newli)
+
+    const thirdlang=document.querySelector("li:nth-child(3)")
+    const secondli=document.createElement("li")
+    secondli.textContent="php"
+    thirdlang.replaceWith(secondli)
+
+    // Edit
+    const firstlang=document.querySelector("li:first-child")
+    firstlang.outerHTML='<li> TypeScript</li>'
+
+    // Remove
+    const lastlang=document.querySelector("li:last-child")
+    lastlang.remove()
+
+    const removeSec=document.querySelector("li:nth-child(2)")
+    removeSec.remove()
+
+    
+
+
+
+
+</script>
+</html>

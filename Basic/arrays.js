@@ -9,12 +9,12 @@
 // console.log(myarray1)
 // myarray2.push("kashif")
 // console.log(myarray2)
-// myarray1.pop()
+// myarray1.pop()  Remove last elementof array
 // console.log(myarray1)
 const myarray=[0,1,2,3,4,5,6,7]
-// myarray.unshift(0)
-// myarray.shift()
-// console.log(myarray.includes(6))
+// myarray.unshift(0)  
+// myarray.shift() remove the element from start
+// console.log(myarray.includes(6)) value exist or not exist
 // console.log(myarray.indexOf(9))
 // console.log(myarray)
 // const newarray=myarray.join()
@@ -37,7 +37,7 @@ const myarray=[0,1,2,3,4,5,6,7]
 
 const myarr1=[1,2,3,4,5,6,7,8]
 const myarr2=[9,10,11,12,13,14]
-//const finalArr=[...myarr1,...myarr2]
+//const finalArr=[...myarr1,...myarr2] spread operator
 //console.log(finalArr)
 // const finalArr=myarr1.concat(myarr2)
 // console.log(finalArr)

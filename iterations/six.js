@@ -2,6 +2,8 @@
 // const newNumber=myNumber.map( (num)=>{return num+10})
 // console.log(newNumber)
 
+
+// Multiple method 
 const myNumber=[1,2,3,4,5,6,7,8,9]
 const newNumber=myNumber
 .map( (nums)=> {return nums*10})
